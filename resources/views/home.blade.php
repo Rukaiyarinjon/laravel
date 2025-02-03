@@ -107,7 +107,7 @@
                 <td>{{ $stData->name }}</td>
                 <td>{{ $stData->email }}</td>
                 <td>{{ $stData->contact }}</td>
-                <td>******</td> <!-- Password is hidden for security purposes -->
+                
                 <td>
                 <a href="{{ route('edit', $stData->id) }}">
                         <button class="btn btn-md btn-success me-1 p-1">edit</button>
